@@ -1,0 +1,50 @@
+@media screen and (max-width: 1157px) {
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .container {
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* Media-Team */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .team-item {
+    flex-basis: calc((100% - 72px) / 2);
+  }
+}
+
+/* Custumers section */
+@media screen and (max-width: 1157px) {
+  .customer-container {
+    width: 582px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+.customer-list {
+  gap: 72px 24px;
+}
+
+.customer-item {
+  max-width: 168px;
+}
+
+.costumer-item {
+  flex-basis: calc((100% - 24px) / 3);
+}

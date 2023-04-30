@@ -1,0 +1,31 @@
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Media-team */
+@media screen and (min-width: 1200px) {
+  .team-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  .team-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+}
+
+.costumer-item {
+  flex-basis: calc((100% - 72px) / 6);
+}
+
+.customers-list {
+  flex-wrap: nowrap;
+  gap: 24px;
+}
