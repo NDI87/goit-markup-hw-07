@@ -16,6 +16,7 @@
     flex-basis: calc((100% - 72px) / 4);
   }
   .team-list {
+    display: flex;
     flex-wrap: nowrap;
     gap: 24px;
   }
@@ -26,6 +27,7 @@
 }
 
 .customers-list {
+  display: flex;
   flex-wrap: nowrap;
   gap: 24px;
 }
