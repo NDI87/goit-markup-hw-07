@@ -519,9 +519,6 @@ button {
   color: var(--light-color);
 }
 
-.footer-social {
-}
-
 .social-text {
   font-weight: 500;
 }
@@ -565,9 +562,6 @@ button {
 .gallery {
   padding-top: 96px;
   padding-bottom: 120px;
-}
-
-.hidden-text {
 }
 
 .filter-list-gallery {
